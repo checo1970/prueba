@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portafolio de desarrollo de sistemas – soluciones web, móviles y de software a medida." />
+  <title>DevPortfolio | Desarrollo de Sistemas</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" aria-label="Navegación principal">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">&lt;Dev<span>Portfolio</span>/&gt;</a>
+      <ul class="nav-links" role="list">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="about.html">Acerca de</a></li>
+        <li><a href="products.html">Productos</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <div class="hero-badge">🚀 Disponible para proyectos</div>
+        <h1 class="hero-title">
+          Creamos <span>soluciones digitales</span> que impulsan tu negocio
+        </h1>
+        <p class="hero-desc">
+          Desarrollo de sistemas, aplicaciones web y móviles con tecnologías modernas.
+          Transformamos tus ideas en productos digitales de alta calidad.
+        </p>
+        <div class="hero-buttons">
+          <a href="products.html" class="btn btn-primary">Ver Productos</a>
+          <a href="contact.html" class="btn btn-outline">Contáctanos</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-card" aria-hidden="true">
+          <div class="hero-card-header">
+            <div class="hero-card-dot"></div>
+            <div class="hero-card-dot"></div>
+            <div class="hero-card-dot"></div>
+          </div>
+          <div class="hero-card-code">
+            <div><span class="kw">const</span> <span class="fn">developer</span> = {</div>
+            <div>&nbsp;&nbsp;nombre: <span class="str">"DevPortfolio"</span>,</div>
+            <div>&nbsp;&nbsp;skills: [<span class="str">"Web"</span>, <span class="str">"API"</span>, <span class="str">"DB"</span>],</div>
+            <div>&nbsp;&nbsp;experiencia: <span class="num">8</span>,</div>
+            <div>&nbsp;&nbsp;proyectos: <span class="num">120</span>,</div>
+            <div>&nbsp;&nbsp;disponible: <span class="kw">true</span></div>
+            <div>};</div>
+            <br/>
+            <div><span class="cmt">// ¿Listo para colaborar? 🚀</span></div>
+            <div><span class="fn">developer</span>.<span class="fn">contactar</span>();</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- STATS -->
+  <section class="stats-strip" aria-label="Estadísticas">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <span class="stat-number" data-count="120" data-suffix="+">0+</span>
+          <span class="stat-label">Proyectos completados</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-count="80" data-suffix="+">0+</span>
+          <span class="stat-label">Clientes satisfechos</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-count="8" data-suffix="">0</span>
+          <span class="stat-label">Años de experiencia</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-count="15" data-suffix="">0</span>
+          <span class="stat-label">Tecnologías dominadas</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" aria-labelledby="skills-title">
+    <div class="container">
+      <h2 class="section-title" id="skills-title">Nuestras Habilidades</h2>
+      <p class="section-subtitle">Tecnologías y herramientas con las que trabajamos</p>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">🌐</div>
+          <h3>Desarrollo Web Frontend</h3>
+          <p>HTML5, CSS3, JavaScript, React, Vue.js, diseño responsivo.</p>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-width="92%"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">⚙️</div>
+          <h3>Desarrollo Backend</h3>
+          <p>Node.js, Python, PHP, APIs REST, microservicios y arquitecturas escalables.</p>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-width="88%"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🗄️</div>
+          <h3>Bases de Datos</h3>
+          <p>MySQL, PostgreSQL, MongoDB, Redis. Modelado y optimización de datos.</p>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-width="85%"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">📱</div>
+          <h3>Apps Móviles</h3>
+          <p>React Native, Flutter. Aplicaciones iOS y Android con UX nativa.</p>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-width="78%"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">☁️</div>
+          <h3>Cloud & DevOps</h3>
+          <p>AWS, Azure, Docker, CI/CD pipelines. Despliegue automatizado y seguro.</p>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-width="80%"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🔒</div>
+          <h3>Seguridad</h3>
+          <p>OWASP, autenticación JWT/OAuth, cifrado y auditorías de seguridad.</p>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-width="82%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" style="background: var(--light);" aria-labelledby="projects-title">
+    <div class="container">
+      <h2 class="section-title" id="projects-title">Proyectos Destacados</h2>
+      <p class="section-subtitle">Algunos trabajos que hablan por sí solos</p>
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <div class="project-thumb">🛒</div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">React</span>
+              <span class="project-tag">Node.js</span>
+              <span class="project-tag">MongoDB</span>
+            </div>
+            <h3 class="project-title">Plataforma E-Commerce</h3>
+            <p class="project-desc">Tienda en línea completa con gestión de inventario, pasarela de pagos y panel de administración.</p>
+            <div class="project-footer">
+              <a href="products.html" class="btn btn-primary" style="font-size:.82rem;padding:.5rem 1rem;">Ver más</a>
+              <a href="contact.html" class="btn btn-outline" style="font-size:.82rem;padding:.5rem 1rem;">Cotizar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb">🏥</div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">Vue.js</span>
+              <span class="project-tag">Python</span>
+              <span class="project-tag">PostgreSQL</span>
+            </div>
+            <h3 class="project-title">Sistema de Gestión Hospitalaria</h3>
+            <p class="project-desc">Módulos de citas, expedientes electrónicos, facturación y reportes para clínicas y hospitales.</p>
+            <div class="project-footer">
+              <a href="products.html" class="btn btn-primary" style="font-size:.82rem;padding:.5rem 1rem;">Ver más</a>
+              <a href="contact.html" class="btn btn-outline" style="font-size:.82rem;padding:.5rem 1rem;">Cotizar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb">📊</div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">React</span>
+              <span class="project-tag">AWS</span>
+              <span class="project-tag">MySQL</span>
+            </div>
+            <h3 class="project-title">Dashboard Analítico</h3>
+            <p class="project-desc">Panel BI con visualizaciones en tiempo real, KPIs automatizados y exportación de reportes.</p>
+            <div class="project-footer">
+              <a href="products.html" class="btn btn-primary" style="font-size:.82rem;padding:.5rem 1rem;">Ver más</a>
+              <a href="contact.html" class="btn btn-outline" style="font-size:.82rem;padding:.5rem 1rem;">Cotizar</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section" aria-labelledby="cta-title">
+    <div class="container">
+      <h2 id="cta-title">¿Tienes un proyecto en mente?</h2>
+      <p>Hablemos sobre cómo podemos convertir tu idea en una solución digital exitosa.</p>
+      <a href="contact.html" class="btn btn-white">Iniciar Proyecto</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">&lt;Dev<span>Portfolio</span>/&gt;</div>
+          <p class="footer-desc">Desarrollo de sistemas y soluciones digitales a medida. Transformamos ideas en productos de impacto.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Páginas</h4>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Acerca de</a></li>
+            <li><a href="products.html">Productos</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Servicios</h4>
+          <ul>
+            <li><a href="products.html">Desarrollo Web</a></li>
+            <li><a href="products.html">Apps Móviles</a></li>
+            <li><a href="products.html">Cloud & DevOps</a></li>
+            <li><a href="products.html">Consultoría</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contacto</h4>
+          <ul>
+            <li><a href="mailto:hola@devportfolio.mx">hola@devportfolio.mx</a></li>
+            <li><a href="tel:+525500000000">+52 55 0000 0000</a></li>
+            <li><a href="contact.html">Formulario de contacto</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2024 DevPortfolio. Todos los derechos reservados.</span>
+        <span>Hecho con ❤️ en México</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
